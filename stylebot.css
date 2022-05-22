@@ -12,6 +12,7 @@ body {
     height: 100vh;
 }
 
+/*css nav*/
 .logo {
     width: 100px;
 }
@@ -39,29 +40,35 @@ nav ul li a {
     padding: 20px;
 }
 
+/*cierre nav*/
+/*css home*/
 .d-block {
     height: 800px;
 }
 
-article h1 {
+article h1,
+h5 {
     font-family: 'Permanent Marker', cursive;
     font-size: 6rem;
     text-align: center;
     align-self: center;
 }
 
-article p {
+article p,
+p {
     font-family: 'Patrick Hand', cursive;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #000;
     align-self: center;
     padding: 15px;
 }
 
+/*cierre home*/
 
 /*css footer*/
 footer {
     background: #2155CD;
+    position: relative;
 }
 
 footer .rrss {
@@ -120,6 +127,13 @@ h1 {
     transform: scale(1.10);
     z-index: 2;
     cursor: pointer;
+}
+
+/*cierre galeria*/
+/*css proyectos*/
+.card {
+    margin: 10px;
+    background-color: aliceblue;
 }
 
 

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../stylebot.css">
 </head>
 
-<body>
+<body class="proyecto">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2155CD;">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index2.html"><img class="logo" src="../assets/logo.png"></a>
@@ -30,10 +30,10 @@
                         <a class="nav-link" href="biografia.html">BIOGRAFÍA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="galeria.html">GALERÍA</a>
+                        <a class="nav-link" href="galeria.html">GALERÍA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="proyectos2.html">PROYECTOS</a>
+                        <a class="nav-link active" href="proyectos.html">PROYECTOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">CONTACTO</a>
@@ -44,24 +44,50 @@
     </nav>
     <!-- cierre de fila logo + nav -->
     <header id="encabezado">
-        <h1>GALERIA</h1>
+        <h1>PROYECTOS</h1>
     </header>
-    <section id="bloqueGal">
-        <div class="galeria">
-            <img src="../assets/gal1.jpg">
-            <img src="../assets/gal2.jpg">
-            <img src="../assets/gal3.jpg">
-            <img src="../assets/gal4.jpg">
-            <img src="../assets/gal5.jpg">
-            <img src="../assets/gal6.jpg">
-            <img src="../assets/gal7.jpg">
-            <img src="../assets/gal8.jpg">
-            <img src="../assets/gal9.jpg">
-            <img src="../assets/gal10.jpg">
-            <img src="../assets/gal11.jpg">
-            <img src="../assets/gal12.jpg">
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../assets/messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pepsi</h5>
+                        <p class="card-text">Creando una metáfora visual, el León, para representar a Messi dentro y
+                            fuera del terreno de juego: un creador de jugadas explosivo y el rey indiscutible de la
+                            cancha que lleva un gran legado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../assets/vicuna.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vicuña</h5>
+                        <p class="card-text">Ilustración realizada junto al equipo de Tridimage para la cerveza Vicuña
+                            de Perú, ilustrando las vivencias de un grupo de maestros cerveceros en el momento de
+                            co-crear una cerveza única.
+                            La ilustración del personaje de la vicuña fue realizada por BioWorks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../assets/martin.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Martín Pescador</h5>
+                        <p class="card-text">Este ave es reconocible al instante por su brillante plumaje multicolor.
+                            Caza a sus presas, peces generalmente, posado en una rama esperando el momento correcto.
+                            Martín Pescador Malbec representa ese momento adecuado para disfrutar de un sabor único y
+                            especial.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </main>
+
+
     <!-- inicio de footer -->
     <footer>
         <div class="rrss">
@@ -99,8 +125,8 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
