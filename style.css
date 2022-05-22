@@ -135,7 +135,70 @@ h1 {
     margin: 10px;
     background-color: aliceblue;
 }
+/*css formulario*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
 
+form {
+    border: 1.5px solid #7fcbf7;
+    background-color: #e6eef3;
+    border-radius: 5px;
+    padding: 30px;
+    width: 500px;
+}
+
+.datos {
+    width: 100%;
+    font-size: 2.5rem;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    font-family: 'Patrick Hand', cursive;
+    }
+
+.text {
+    font-size: 2.5rem;
+    font-family: 'Patrick Hand', cursive;
+    position: left;
+}
+
+.comentarios {
+    border: 1px solid;
+    height: 150px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 2.5rem;
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 4px;
+}
+
+/*menu desplegable formulario*/
+#contacto {
+    font-size: 2.5rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.botons {
+    border-radius: 8px;
+    font-size: 2.5rem;
+    font-family: 'Patrick Hand', cursive;
+    width: 49%;
+    border: none;
+    background: #1b9ce7;
+    padding: 16px;
+    color: white;
+    margin: 16px 0;
+}
+
+/*cierre formulario*/
 
 /*responsive*/
 @media (max-width:999px) {
