@@ -119,12 +119,13 @@ h1 {
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
     max-width: 23vw;
     transition: all 300ms;
+    filter:grayscale(100%);
     position: relative;
 }
 
 .galeria img:hover {
-    opacity: 0.8;
-    transform: scale(1.10);
+    filter:grayscale(0%);
+    transform: scale(1.30);
     z-index: 2;
     cursor: pointer;
 }
