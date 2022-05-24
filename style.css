@@ -9,7 +9,7 @@ html {
 }
 
 main {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /*css nav*/
@@ -132,7 +132,7 @@ h1 {
 /*cierre galeria*/
 /*css proyectos*/
 .card {
-    margin: 10px;
+    padding: 10px;
     background-color: aliceblue;
 }
 /*css formulario*/
