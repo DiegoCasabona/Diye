@@ -199,6 +199,20 @@ form {
 }
 
 /*cierre formulario*/
+/*css biografia*/
+.diegos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBio {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+}
 
 /*responsive*/
 @media (max-width:999px) {
